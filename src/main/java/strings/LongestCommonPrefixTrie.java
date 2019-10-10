@@ -3,7 +3,22 @@ package strings;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Find longest commons substring in a given set of strings. Return "" if not found.
+ */
 public class LongestCommonPrefixTrie {
+
+    /**
+     * Alogorithm:
+     * - Corner cases
+     *  - array is empty
+     *  - a string in array is empty
+     *
+     * - Build a trie and add all strings to it.
+     * - Iterate through Trie until a node is found with more than once child. This is the prefix.
+     *
+     * @param args
+     */
 
     public static void main(String... args) {
         LongestCommonPrefixTrie run = new LongestCommonPrefixTrie();
