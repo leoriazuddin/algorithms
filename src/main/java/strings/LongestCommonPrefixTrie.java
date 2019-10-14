@@ -39,7 +39,7 @@ public class LongestCommonPrefixTrie {
 
                 current = current.children.get(c);
             }
-            current.leaf = true;
+            current.isWord = true;
         }
     }
 
