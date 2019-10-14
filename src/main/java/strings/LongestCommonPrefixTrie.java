@@ -1,6 +1,5 @@
 package strings;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -9,15 +8,10 @@ import java.util.Map;
 public class LongestCommonPrefixTrie {
 
     /**
-     * Alogorithm:
-     * - Corner cases
-     *  - array is empty
-     *  - a string in array is empty
+     * Alogorithm: - Corner cases - array is empty - a string in array is empty
      *
-     * - Build a trie and add all strings to it.
-     * - Iterate through Trie until a node is found with more than once child. This is the prefix.
-     *
-     * @param args
+     * - Build a trie and add all strings to it. - Iterate through Trie until a node is found with more than once child.
+     * This is the prefix.
      */
 
     public static void main(String... args) {
@@ -39,8 +33,9 @@ public class LongestCommonPrefixTrie {
             TrieNode current = head;
             for (int i = 0; i < s.length(); i++) {
                 char c = s.charAt(i);
-                if (!current.children.containsKey(c))
+                if (!current.children.containsKey(c)) {
                     current.children.put(c, new TrieNode());
+                }
 
                 current = current.children.get(c);
             }
@@ -58,10 +53,5 @@ public class LongestCommonPrefixTrie {
         }
 
         return sb.toString();
-    }
-
-    static class TrieNode {
-        boolean leaf;
-        private Map<Character, TrieNode> children = new HashMap<>();
     }
 }
