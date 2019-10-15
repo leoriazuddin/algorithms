@@ -11,3 +11,5 @@
 [Trie implementation](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/Trie.java)
 
 [Neuronyms](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/Neuronyms.java)
+
+[Minimum Window Substring](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/MinimumWindowSubstring.java)
