@@ -9,3 +9,5 @@
 [Palindrome Partitions](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/PalindromePartitioning.java)
 
 [Trie implementation](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/Trie.java)
+
+[Neuronyms](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/Neuronyms.java)
