@@ -1,6 +1,9 @@
 # Arrays
 [Spiral Matrix](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/SpiralMatrix.java)
 
+# List
+[Find loop in LinkedList](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/DetectAndRemoveLoop.java)
+
 # Strings
 [Longest Common Prefix - Trie](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/LongestCommonPrefixTrie.java)
 
