@@ -4,6 +4,8 @@
 # List
 [Find loop in LinkedList](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/DetectAndRemoveLoop.java)
 
+[Find intersection of two lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/ListIntersectionNode.java)
+
 # Strings
 [Longest Common Prefix - Trie](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/LongestCommonPrefixTrie.java)
 
