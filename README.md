@@ -11,6 +11,7 @@
 
 [Reverse Polish Notation](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/ReversePolishNotation.java)
 [Min Stack](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/MinStack.java)
+[Valid Parentheses](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/ValidParentheses.java)
 
 
 # Strings
