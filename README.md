@@ -7,6 +7,7 @@
 [Find intersection of two lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/ListIntersectionNode.java)
 [LRU](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/LRU.java)
 [Add Two Numbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/AddTwoNumbers.java)
+[Find middle in list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/FindTheMiddle.java)
 
 
 # Stack
