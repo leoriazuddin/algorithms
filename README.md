@@ -8,6 +8,7 @@
 [LRU](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/LRU.java)
 [Add Two Numbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/AddTwoNumbers.java)
 [Find middle in list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/FindTheMiddle.java)
+[Zip linked list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/Zip.java)
 
 
 # Stack
