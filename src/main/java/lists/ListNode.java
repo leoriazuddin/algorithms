@@ -2,7 +2,7 @@ package lists;
 
 public class ListNode<T> {
 
-    ListNode next;
+    ListNode<T> next;
     T value;
 
     public ListNode(T value) {

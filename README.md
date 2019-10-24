@@ -6,6 +6,7 @@
 [Find loop in LinkedList](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/DetectAndRemoveLoop.java)
 [Find intersection of two lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/ListIntersectionNode.java)
 [LRU](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/LRU.java)
+[Add Two Numbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/AddTwoNumbers.java)
 
 
 # Stack
@@ -13,6 +14,7 @@
 [Reverse Polish Notation](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/ReversePolishNotation.java)
 [Min Stack](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/MinStack.java)
 [Valid Parentheses](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/ValidParentheses.java)
+[Find Kth largest in unsorted array](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/KthLargest.java)
 
 
 # Strings
