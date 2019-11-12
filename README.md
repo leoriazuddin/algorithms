@@ -16,6 +16,7 @@
 [Min Stack](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/MinStack.java)
 [Valid Parentheses](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/ValidParentheses.java)
 [Find Kth largest in unsorted array](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/KthLargest.java)
+[Implement Queue using stack](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/QueueStack.java)
 
 # Strings
 [Longest Common Prefix - Trie](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/LongestCommonPrefixTrie.java)
