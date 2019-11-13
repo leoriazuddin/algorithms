@@ -10,4 +10,18 @@ public class ArrayHelper {
         }
         System.out.println();
     }
+
+    public static void printArray(int[] a) {
+        for(int x : a)
+            System.out.print(x+" ");
+
+        System.out.println();
+    }
+
+    public static void printArray(int[] a, int low, int high) {
+        for(int i = low; i <=high; i++)
+            System.out.print(a[i]+" ");
+
+        System.out.println();
+    }
 }
