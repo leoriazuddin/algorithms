@@ -14,6 +14,7 @@
 
 # Sorting
 [QuickSort](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/QuickSort.java)
+[MergeSort](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeSort.java)
 
 # Stack
 [Reverse Polish Notation](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/ReversePolishNotation.java)
