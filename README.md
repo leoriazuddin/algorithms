@@ -18,6 +18,7 @@
 [Merge K Sorted Lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeKSortedLists.java)
 [Merge K Sorted Arrays](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeKSortedArrays.java)
 [3Sum](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/ThreeSum.java)
+[GroupNumbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/GroupNumbers.java)
 
 # Stack
 [Reverse Polish Notation](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/ReversePolishNotation.java)
