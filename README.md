@@ -76,3 +76,8 @@ Boggle 1 and 2
 [Move Letters To Left](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/MoveLettersToLeft.java)
 
 [Basic Calculator II](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/strings/BasicCalculator.java)
+
+# Trees
+
+[Next Higher in BST](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/trees/FindNextHigher.java)
+
