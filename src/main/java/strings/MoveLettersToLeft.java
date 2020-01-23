@@ -1,7 +1,17 @@
 package strings;
+
 /**
- * Move all alphabets to left and order should be preserved, all digits should be on right side and their
- * order is not important
+ * Move all alphabets to left and order should be preserved, all digits should be on right side and their order is not
+ * important.
+ *
+ * You're given a character array, which may contain alphabet letters (a to z or A to Z) as well as numbers (0 to 9,
+ * represented as characters), in random order. You have to make alphabet letters appear on left side, inside the same
+ * array. e.g. If your input is [0,a,1,9,3,z,b,r,6], then in your output, letters a, z, b, and r, should be seen on left
+ * side in the array.
+ *
+ * Keep char (ptc) and number (ptn) pointer
+ * increment ptc until number is found, increment ptn until char is found.
+ * if ptn > ptc, swap their values
  */
 public class MoveLettersToLeft {
 
@@ -10,7 +20,7 @@ public class MoveLettersToLeft {
         while (ptc <= l && ptn <= l) {
             // Find ptr to next char
             // while (Character.isAlphabetic(a[ptc]) && ptc <= l)
-            while (a[ptn] < '0' && a[ptn] > '9' && ptc <= l) {
+            while ((a[ptc] < '0' || a[ptc] > '9') && ptc <= l) {
                 //Important: the above is an 'or' condition'
                 ptc++;
             }
