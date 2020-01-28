@@ -10,6 +10,13 @@ import java.util.List;
  * Palindrome partition: Every partition is palindrome and all partitions together form the input.
  *
  * aab -> {a, a, b}, {aa, b}
+ * 
+ * Use recursion: 
+ *  check if there is a palindrome substring
+ *  for each such substring check if there are further palindromic substrings
+ *  add it to a deque
+ *  if all chars explored, add all contents of deque to master list
+ *  remove from deque
  */
 public class PalindromePartitioning {
     public static void main(String[] args) {
