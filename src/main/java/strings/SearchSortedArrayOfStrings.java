@@ -2,7 +2,7 @@ package strings;
 
 /**
  * Given an array of strings which can contain empty and non-empty strings. non-empty string are sorted.
- * Find a given string.
+ * Find index of given string.
  */
 public class SearchSortedArrayOfStrings {
 
@@ -29,15 +29,11 @@ public class SearchSortedArrayOfStrings {
         if (start > end)
             return -1;
 
-        if (strings[start].equals("")) {
-            while (start < end && strings[start].equals(""))
-                start++;
-        }
+        while (start < end && strings[start].equals(""))
+            start++;
 
-        if (strings[end].equals("")) {
-            while (end > start && strings[end].equals(""))
-                end--;
-        }
+        while (end > start && strings[end].equals(""))
+            end--;
 
         if (strings[start].equals(search)) return start;
         if (strings[end].equals(search)) return end;
