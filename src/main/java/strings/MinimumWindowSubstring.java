@@ -2,7 +2,13 @@ package strings;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/*
+* Build patternMap
+* iterate through input characters
+    if character found in patternMap decrement its count, same time count how many characters were found (cnt).
+    Shrink the size of substring found so far
+* 
+*/
 public class MinimumWindowSubstring {
 
     public String minWindow(String s, String t) {
