@@ -6,7 +6,7 @@ import java.util.Stack;
  * Zip a linked list from it two ends. e.g. Input: 1->2->3->4->5->6 Output: 1->6->2->5->3->4
  *
  * find middle.
- * if size is even: begin zipping from middle if size is odd: skip the middle and begin zipping the
+ * if size is even: begin zipping from middle, if size is odd: skip the middle and begin zipping the
  * neighbors of middle.
  */
 public class Zip {
