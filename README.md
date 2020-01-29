@@ -3,12 +3,19 @@
 # TODO
 [Nearest Neighbors](https://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/)
 Merge Overlapping Intervals
+
 Find All Duplicates in an Array
+
 Find min in rotated sorted array
+
 Majority element
+
 Shortest path in binary maze
+
 Clone graph
+
 Find number of islands
+
 Boggle 1 and 2
 
 
