@@ -29,20 +29,12 @@ public class CloneSpecialList {
                 clone = cloneHead;
             }
 
-            clone.arbit = map.get(n.arbit);
-            clone.next = map.get(n.next);
-
             n = n.next;
         }
 
+        //Traverse again to set arbit and next node.
         n = head;
         while(n != null) {
-
-            if(cloneHead == null){
-                cloneHead = map.get(head);
-                clone = cloneHead;
-            }
-
             clone.arbit = map.get(n.arbit);
             clone.next = map.get(n.next);
 
