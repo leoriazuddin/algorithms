@@ -13,6 +13,7 @@ public class Zip {
 
     public void zip(ListNode<Integer> head) {
 
+        int size = 0;
         ListNode<Integer> p1 = head, p2 = head, prev = null;
         Stack<ListNode<Integer>> s = new Stack<>();
 
@@ -20,12 +21,20 @@ public class Zip {
             s.push(p1);
             p1 = p1.next;
             p2 = p2.next.next;
+            size++;
         }
 
+        System.out.println(size);
+
+        //input size is even
         ListNode<Integer> right = p1;
 
+        //stack has even count i.e., input size is odd
+        //mid element becomes last in result
         if (s.size() % 2 == 0) {
             right = p1.next;
+            prev = p1;
+            prev.next = null;
         }
 
         while (!s.empty()) {
