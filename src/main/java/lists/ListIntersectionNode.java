@@ -8,18 +8,8 @@ package lists;
 public class ListIntersectionNode {
 
     public static void main(String[] args) {
-        ListNode<Integer> head1 = new ListNode<>(10);
-        head1.next = new ListNode<>(20);
-        head1.next.next = new ListNode<>(50);
-        head1.next.next.next = new ListNode<>(40);
-        head1.next.next.next.next = new ListNode<>(100);
-        head1.next.next.next.next.next = new ListNode<>(70);
-
-
-        ListNode<Integer> head2 = new ListNode<>(100);
-        head2.next = new ListNode<>(120);
-        head2.next.next = new ListNode<>(150);
-        head2.next.next.next = new ListNode<>(140);
+        ListNode<Integer> head1 = ListHelper.createList(new int[]{10, 20, 50, 40, 100, 70});
+        ListNode<Integer> head2 = ListHelper.createList(new int[]{100, 120, 150, 140});
 
         head2.next.next.next.next = head1.next.next;
         findIntersetionNode(head1, head2);
