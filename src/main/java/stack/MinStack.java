@@ -3,7 +3,13 @@ package stack;
 import java.util.Stack;
 
 /**
- * https://leetcode.com/problems/min-stack/description/
+ * Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+ *   push(x) -- Push element x onto stack.
+ *   pop() -- Removes the element on top of the stack.
+ *   top() -- Get the top element.
+ *   getMin() -- Retrieve the minimum element in the stack.
+ *
+ *  https://leetcode.com/problems/min-stack/description/
  *
  * if new element i < min: push min and set min = i. this marks the min so far.
  * during pop: if s.pop() == min: min = s.pop(). this sets the min for the elements in stack
