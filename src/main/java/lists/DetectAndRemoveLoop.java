@@ -13,12 +13,7 @@ public class DetectAndRemoveLoop {
 
 
     public static void main(String[] args) {
-        ListNode<Integer> head = new ListNode<>(10);
-        head.next = new ListNode<>(20);
-        head.next.next = new ListNode<>(50);
-        head.next.next.next = new ListNode<>(40);
-        head.next.next.next.next = new ListNode<>(100);
-        head.next.next.next.next.next = new ListNode<>(70);
+        ListNode<Integer> head = ListHelper.createList(new int[]{10, 20, 50, 40, 100, 70});
 
         head.next.next.next.next.next.next = head.next.next;
 
