@@ -13,31 +13,13 @@ Boggle 1 and 2
 
 |# Arrays  |# List | # Stack | # Tree  | # Sorting |
 |----------|-------|---------|---------|-----------|
-| [Spiral Matrix](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/SpiralMatrix.java)|
-| [DataSumInInterval](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DataSumInInterval.java)|
-| [DutchNationalFlag](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DutchNationalFlag.java)|
-
-# Arrays
-[Spiral Matrix](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/SpiralMatrix.java)
-
-[DataSumInInterval](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DataSumInInterval.java)
-
-[DutchNationalFlag](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DutchNationalFlag.java)
-
-# List
-[Find loop in LinkedList](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/DetectAndRemoveLoop.java)
-
-[Find intersection of two lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/ListIntersectionNode.java)
-
-[LRU](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/LRU.java)
-
-[Add Two Numbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/AddTwoNumbers.java)
-
-[Find middle in list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/FindTheMiddle.java)
-
-[Zip linked list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/Zip.java)
-
-[Clone special list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/CloneSpecialList.java)
+| [Spiral Matrix](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/SpiralMatrix.java)|[Find loop in LinkedList](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/DetectAndRemoveLoop.java)|
+| [DataSumInInterval](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DataSumInInterval.java)|[Find intersection of two lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/ListIntersectionNode.java)|
+| [DutchNationalFlag](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DutchNationalFlag.java)|[LRU](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/LRU.java)|
+||[Add Two Numbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/AddTwoNumbers.java)|
+||[Find middle in list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/FindTheMiddle.java)|
+||[Zip linked list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/Zip.java)|
+||[Clone special list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/CloneSpecialList.java)|
 
 # Sorting
 [QuickSort](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/QuickSort.java)
