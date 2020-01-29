@@ -11,6 +11,13 @@ Clone graph
 Find number of islands
 Boggle 1 and 2
 
+|# Arrays  |# List | # Stack | # Tree  | # Sorting |
+|----------|-------|---------|---------|-----------|
+| [Spiral Matrix](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/SpiralMatrix.java)|
+
+| [DataSumInInterval](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DataSumInInterval.java)|
+
+| [DutchNationalFlag](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DutchNationalFlag.java)|
 
 # Arrays
 [Spiral Matrix](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/SpiralMatrix.java)
