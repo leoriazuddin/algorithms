@@ -25,10 +25,12 @@ public class FindTheMiddle {
 
     public static void main(String[] args) {
         //(2 -> 4 -> 3) + (5 -> 6 -> 4)
-        ListNode<Integer> a = ListHelper.createSampleList();
+        ListNode<Integer> even = ListHelper.createList(new int[]{2, 4, 3, 1, 7, 0, 9, 8, 6, 5});
+        ListNode<Integer> odd = ListHelper.createList(new int[]{2, 4, 3, 1, 7, 0, 9, 8, 6, });
 
         FindTheMiddle m = new FindTheMiddle();
-        System.out.print(m.middle(a));
+        System.out.println(m.middle(even));
+        System.out.println(m.middle(odd));
     }
 
 }
