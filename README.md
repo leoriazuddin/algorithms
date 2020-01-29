@@ -13,13 +13,26 @@ Boggle 1 and 2
 
 |# Arrays  |# List | # Stack | # Tree  | # Sorting |
 |----------|-------|---------|---------|-----------|
-|[Spiral Matrix](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/SpiralMatrix.java)|[Find loop in LinkedList](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/DetectAndRemoveLoop.java)||||[QuickSort](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/QuickSort.java)|
-|[DataSumInInterval](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DataSumInInterval.java)|[Find intersection of two lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/ListIntersectionNode.java)|||||[MergeSort](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeSort.java)|
-|[DutchNationalFlag](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DutchNationalFlag.java)|[LRU](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/LRU.java)|||||[Merge K Sorted Lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeKSortedLists.java)|
-||[Add Two Numbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/AddTwoNumbers.java)||||[Merge K Sorted Arrays](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeKSortedArrays.java)|
-||[Find middle in list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/FindTheMiddle.java)||||[3Sum](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/ThreeSum.java)|
-||[Zip linked list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/Zip.java)||||[GroupNumbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/GroupNumbers.java)|
-||[Clone special list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/CloneSpecialList.java)|||||
+| [Spiral Matrix](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/SpiralMatrix.java)|[Find loop in LinkedList](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/DetectAndRemoveLoop.java)|
+| [DataSumInInterval](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DataSumInInterval.java)|[Find intersection of two lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/ListIntersectionNode.java)|
+| [DutchNationalFlag](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DutchNationalFlag.java)|[LRU](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/LRU.java)|
+||[Add Two Numbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/AddTwoNumbers.java)|
+||[Find middle in list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/FindTheMiddle.java)|
+||[Zip linked list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/Zip.java)|
+||[Clone special list](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/CloneSpecialList.java)|
+
+# Sorting
+[QuickSort](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/QuickSort.java)
+
+[MergeSort](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeSort.java)
+
+[Merge K Sorted Lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeKSortedLists.java)
+
+[Merge K Sorted Arrays](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeKSortedArrays.java)
+
+[3Sum](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/ThreeSum.java)
+
+[GroupNumbers](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/GroupNumbers.java)
 
 # Stack
 [Reverse Polish Notation](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/stack/ReversePolishNotation.java)
