@@ -12,7 +12,7 @@ Find number of islands
 Boggle 1 and 2
 
 | Arrays  | List | Stack | Tree  | Sorting |
-|---------|------|-------|-------|---------|
+|----------|-------|---------|---------|-----------|
 |[Spiral Matrix](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/SpiralMatrix.java)|[Find loop in LinkedList](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/DetectAndRemoveLoop.java)||||[QuickSort](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/QuickSort.java)|
 |[DataSumInInterval](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DataSumInInterval.java)|[Find intersection of two lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/ListIntersectionNode.java)|||||[MergeSort](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeSort.java)|
 |[DutchNationalFlag](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/arrays/DutchNationalFlag.java)|[LRU](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/lists/LRU.java)|||||[Merge K Sorted Lists](https://github.com/leoriazuddin/ds-and-algo/blob/master/src/main/java/sorting/MergeKSortedLists.java)|
