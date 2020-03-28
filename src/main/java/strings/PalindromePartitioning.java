@@ -6,12 +6,12 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Given string print all possible palindrome partitions.
+ * Given string backTrackingAndRecursion all possible palindrome partitions.
  * Palindrome partition: Every partition is palindrome and all partitions together form the input.
  *
  * aab -> {a, a, b}, {aa, b}
  * 
- * Use recursion: 
+ * Use backTrackingAndRecursion:
  *  check if there is a palindrome substring
  *  for each such substring check if there are further palindromic substrings
  *  add it to a deque

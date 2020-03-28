@@ -21,6 +21,7 @@ public class Skyline {
 
     public List<int[]> getSkyline(int[][] buildings){
         BuildingPoint[] points = new BuildingPoint[buildings.length];
+        return null;
     }
 
     static class BuildingPoint implements Comparable<BuildingPoint> {
