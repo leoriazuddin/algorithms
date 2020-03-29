@@ -7,8 +7,8 @@ public class ArrayHelper {
             for (int j = 0; j < m[0].length; j++) {
                 System.out.print("\t" + m[i][j]);
             }
+            System.out.println();
         }
-        System.out.println();
     }
 
     public static void printArray(int[] a) {
