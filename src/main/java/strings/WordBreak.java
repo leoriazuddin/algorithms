@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Set;
 
 /**
- * Given a string and dictionary, backTrackingAndRecursion the string as seprarated by valid words else backTrackingAndRecursion nothing.
+ * Given a string and dictionary, return true if the string can be seprarated by valid words else nothing.
  *
  * whatisjava -> true whatisj-> false
  *
