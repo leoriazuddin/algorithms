@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * given and array,
- *  print indexes of elements which have all elements less than on right side.
+ *  print all indexes of elements which have all elements on right less than it.
  */
 public class AllMininimumOnRight {
 

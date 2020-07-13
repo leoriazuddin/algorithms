@@ -16,10 +16,10 @@ public class DutchNationalFlag {
                 mid++;
                 start++;
             }
-            if (a[mid] == 1) {
+            else if (a[mid] == 1) {
                 mid++;
             }
-            if (a[mid] == 2) {
+            else if (a[mid] == 2) {
                 swap(a, mid, end);
                 end--;
             }
