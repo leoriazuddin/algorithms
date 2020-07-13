@@ -17,7 +17,7 @@ public class KthLargest {
 
     public KthLargest(int k) {
         this.k = k;
-        q = new PriorityQueue<>(k);
+        q = new PriorityQueue<>((a, b) -> { return b - a; });
     }
 
     public int kthLargest(int[] input) {

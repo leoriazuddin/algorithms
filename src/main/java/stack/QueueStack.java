@@ -13,13 +13,15 @@ import java.util.Stack;
  *  dequeue:
  *      return top of S1
  *
- * Approach 2: Keep one stack empty at all times. This avoids moving back elements to S1 as in Approach 1
+ * Approach 2: keep pushing to s1, and popping from s2. If s2 is empty, move all from s1 to s2. This way we only move on
+ *  pop when s2 is empty.
  *  enqueue i:
- *      if S1 is empty, push i to S1, else to S2
- *      move all elements from non empty stack to stack where i is pushed.
+ *      push to S1
  *  dequeue:
  *      if both stacks are empty return -1
- *      return top of non-empty stack
+ *      if s2 is empty, move all from s1 to s2 and pop.
+ *  top:
+ *      return s2.peek()
  */
 public class QueueStack {
 

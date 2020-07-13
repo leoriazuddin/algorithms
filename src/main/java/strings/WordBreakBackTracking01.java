@@ -7,16 +7,16 @@ import java.util.LinkedList;
 import java.util.Set;
 
 /**
- * Given a string and dictionary, return true if the string can be seprarated by valid words else nothing.
+ * Given a string and dictionary, return true if the string can be separated by valid words else nothing.
  *
  * whatisjava -> true whatisj-> false
  *
  * Done using backtracking and recursion
  */
-public class WordBreak {
+public class WordBreakBackTracking01 {
 
     public static void main(String[] args) {
-        WordBreak m = new WordBreak();
+        WordBreakBackTracking01 m = new WordBreakBackTracking01();
         Set<String> dict = new HashSet<>(Arrays.asList("apple", "i", "is", "java", "what", "am", "ace"));
 
         for (String input : Arrays.asList("whatisjava", "iamace", "wh","ic")) {

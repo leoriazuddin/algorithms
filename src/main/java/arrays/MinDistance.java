@@ -25,7 +25,7 @@ public class MinDistance {
                 idx = i;
                 d = Integer.MAX_VALUE;
             } else if(a[i] == max) {
-                d = (i - idx) < d ? i - idx : d;
+                d = Math.min((i - idx), d);
                 idx = i;
             }
         }

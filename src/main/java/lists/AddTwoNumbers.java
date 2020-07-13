@@ -54,7 +54,7 @@ public class AddTwoNumbers {
     }
 
     public static void main(String[] args) {
-        //(2 -> 4 -> 3) + (5 -> 6 -> 4)
+        //(2 -> 4 -> 3 -> 3) + (5 -> 6 -> 4)
         ListNode<Integer> a = new ListNode<>(2);
         a.next = new ListNode<>(4);
         a.next.next = new ListNode<>(3);
