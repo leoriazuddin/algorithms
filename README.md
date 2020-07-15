@@ -22,4 +22,13 @@ Find number of islands
 
 Boggle 1 and 2
 
+given array of coins and a number, return Minimum number of coins that sum up to 
+the number.
+
+Return the length of longest palindrome of a given string.
+
 [Partition Labels] (https://www.youtube.com/watch?v=ED4ateJu86I)
+
+Design
+- traffic light system
+- youtube/Netflix system

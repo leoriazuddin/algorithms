@@ -3,6 +3,10 @@ package strings;
 import java.util.HashMap;
 import java.util.Map;
 /*
+* Given a string S and a string T, find the minimum window in S which will contain all the characters
+*   in T in complexity O(n)
+* https://leetcode.com/problems/minimum-window-substring/
+*
 * Build patternMap
 * iterate through input characters
     if character found in patternMap decrement its count, same time count how many characters were found (cnt).
@@ -15,23 +19,23 @@ public class MinimumWindowSubstring {
         if (s == null || s.length() == 0 || s.length() < t.length()) {
             return "";
         }
-        Map<Character, Integer> map = new HashMap<>();
+        Map<Character, Integer> patternMap = new HashMap<>();
         // add all t char to map
         for (char c : t.toCharArray()) {
-            if (map.containsKey(c)) {
-                map.put(c, map.get(c) + 1);
+            if (patternMap.containsKey(c)) {
+                patternMap.put(c, patternMap.get(c) + 1);
             } else {
-                map.put(c, 1);
+                patternMap.put(c, 1);
             }
         }
 
         int l = 0, min_left = 0, min_len = Integer.MAX_VALUE, cnt = 0;
         // keep going right till you find all char in t cnt == t when all found
         for (int r = 0; r < s.length(); r++) {
-            char cr = s.charAt(r);
-            if (map.containsKey(cr)) {
-                map.put(cr, map.get(cr) - 1);
-                if (map.get(cr) >= 0) {
+            char c_r = s.charAt(r);
+            if (patternMap.containsKey(c_r)) {
+                patternMap.put(c_r, patternMap.get(c_r) - 1);
+                if (patternMap.get(c_r) >= 0) {
                     cnt++;
                 }
             }
@@ -43,10 +47,10 @@ public class MinimumWindowSubstring {
                     min_len = r - l + 1;
                 }
                 // Shrink the left side of the window and reduce count if cl part of t
-                char cl = s.charAt(l);
-                if (map.containsKey(cl)) {
-                    map.put(cl, map.get(cl) + 1);
-                    if (map.get(cl) > 0) {
+                char c_l = s.charAt(l);
+                if (patternMap.containsKey(c_l)) {
+                    patternMap.put(c_l, patternMap.get(c_l) + 1);
+                    if (patternMap.get(c_l) > 0) {
                         cnt--;
                     }
                 }

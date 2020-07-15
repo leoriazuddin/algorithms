@@ -1,9 +1,6 @@
 package strings;
 
 /**
- * Move all alphabets to left and order should be preserved, all digits should be on right side and their order is not
- * important.
- *
  * You're given a character array, which may contain alphabet letters (a to z or A to Z) as well as numbers (0 to 9,
  * represented as characters), in random order. You have to make alphabet letters appear on left side, inside the same
  * array. e.g. If your input is [0,a,1,9,3,z,b,r,6], then in your output, letters a, z, b, and r, should be seen on left

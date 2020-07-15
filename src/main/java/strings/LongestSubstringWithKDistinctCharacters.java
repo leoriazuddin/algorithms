@@ -49,7 +49,7 @@ public class LongestSubstringWithKDistinctCharacters {
         }
 
         if (map.size() < k) {
-            System.out.println("Nothing to backTrackingAndRecursion");
+            System.out.println("Nothing to print");
         } else {
             System.out.println(String.format("Length %s, string %s", len, input.substring(rStart, rEnd + 1)));
         }
