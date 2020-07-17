@@ -1,30 +1,19 @@
 # [README Editor](https://stackedit.io/app#)
 
+# TODO
 [Nearest Neighbors](https://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/)
-
-Find All Duplicates in an Array
-
-Find min in rotated sorted array
-
-Find element in sorted rotated array
-
-Check if tree is symmetric
-
-Majority element
-
-Shortest path in binary maze
-
-Clone graph
 
 Optimal path in graph
 
-Find number of islands
-
 Boggle 1 and 2
 
-Return the length of longest palindrome of a given string.
+Manacher's algorithm.
+
+KMP algorithm
 
 [Partition Labels] (https://www.youtube.com/watch?v=ED4ateJu86I)
+
+Graph: Optimal path from source node to destination
 
 Design
 - traffic light system
