@@ -5,8 +5,6 @@
 
 Optimal path in graph
 
-Boggle 1 and 2
-
 Manacher's algorithm.
 
 KMP algorithm
