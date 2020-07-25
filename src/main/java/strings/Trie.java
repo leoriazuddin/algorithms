@@ -15,6 +15,10 @@ public class Trie {
     public Trie() {
     }
 
+    public TrieNode getHead() {
+        return head;
+    }
+
     /**
      * Inserts a word into the trie.
      */

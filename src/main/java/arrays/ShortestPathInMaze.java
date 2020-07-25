@@ -6,22 +6,24 @@ import java.util.Queue;
 /**
  * Given matrix and two points, find the shortest path from source to destination
  *  https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/
- * time: O(mn)
  *
+ * time: O(mn)
  */
 public class ShortestPathInMaze {
     public static void main(String[] args) {
-        int m[][] = {{ 1, 0, 1, 1, 1, 1, 0, 1, 1, 1 },
+        int m[][] = {
+                { 1, 0, 1, 1, 1, 1, 0, 1, 1, 1 },
                 { 1, 0, 1, 0, 1, 1, 1, 0, 1, 1 },
                 { 1, 1, 1, 0, 1, 1, 0, 1, 0, 1 },
-                { 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 },
-                { 1, 1, 1, 0, 1, 1, 1, 0, 1, 0 },
+                { 1, 0, 0, 0, 1, 0, 0, 0, 0, 1 },
+                { 1, 1, 1, 1, 1, 1, 1, 0, 1, 0 },
                 { 1, 0, 1, 1, 1, 1, 0, 1, 0, 0 },
                 { 1, 0, 0, 0, 0, 0, 0, 0, 0, 1 },
                 { 1, 0, 1, 1, 1, 1, 0, 1, 1, 1 },
                 { 1, 1, 0, 0, 0, 0, 1, 0, 0, 1 }};
 
-        System.out.println(sp(m, new Point(0,0), new Point(3, 4)));
+//        System.out.println(sp(m, new Point(0,0), new Point(3, 4)));
+        System.out.println(sp(m, new Point(2,1), new Point(0, 3)));
     }
 
     static int sp(int[][] m, Point source, Point destination) {
@@ -31,7 +33,7 @@ public class ShortestPathInMaze {
             return result;
 
         q.add(new Node(source, 0));
-        int rLen = m.length, cLen = m[0].length;
+        int noOfRows = m.length, noOfCols = m[0].length;
 
         boolean[][] visited = new boolean[m.length][m[0].length];
         int rows[] = {-1, 0, 0, 1};
@@ -40,6 +42,7 @@ public class ShortestPathInMaze {
         while (!q.isEmpty()) {
             Node n = q.poll();
             Point p = n.p;
+            System.out.println(String.format("Point(%d, %d)", p.x, p.y));
 
             visited[p.x][p.y] = true;
             if (p.x == destination.x && p.y == destination.y)
@@ -49,7 +52,7 @@ public class ShortestPathInMaze {
                 int row = p.x + rows[i];
                 int col = p.y + cols[i];
 
-                if (row >= 0 && row < rLen && col >= 0 && col < cLen && m[row][col] == 1 && !visited[row][col]) {
+                if (row >= 0 && row < noOfRows && col >= 0 && col < noOfCols && m[row][col] == 1 && !visited[row][col]) {
                     visited[row][col] = true;
                     q.add(new Node(new Point(row, col), n.dist + 1));
                 }

@@ -80,20 +80,20 @@ public class ShortestPathDijkstra {
         while (!q.isEmpty()) {
             Node node = q.poll();
 
-            int u = node.vertex;
-            for (Edge e : g.adjList.get(u)) {
-                int v = e.dest;
+            int from = node.vertex;
+            for (Edge e : g.adjList.get(from)) {
+                int to = e.dest;
                 int weight = e.weight;
 
                 //relaxation
-                if (!visited[v] && (dist.get(u) + weight) < dist.get(v)) {
-                    dist.set(v, dist.get(u) + weight);
-                    prev[v] = u;
-                    q.add(new Node(v, dist.get(v)));
+                if (!visited[to] && (dist.get(from) + weight) < dist.get(to)) {
+                    dist.set(to, dist.get(from) + weight);
+                    prev[to] = from;
+                    q.add(new Node(to, dist.get(to)));
                 }
             }
 
-            visited[u] = true;
+            visited[from] = true;
         }
 
         for (int i = 0; i < n; i++) {

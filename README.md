@@ -11,7 +11,7 @@ KMP algorithm
 
 [Partition Labels] (https://www.youtube.com/watch?v=ED4ateJu86I)
 
-Graph: Optimal path from source node to destination
+Search in a given string using given Regular Expression.
 
 Design
 - traffic light system

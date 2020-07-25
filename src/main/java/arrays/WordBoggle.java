@@ -7,8 +7,11 @@ import java.util.Set;
 
 /**
  * https://www.techiedelight.com/generate-list-of-possible-words-from-a-character-matrix/
+ *
  * Given M*N boggle board, find all possible words that can be formed by a sequence of adjacent characters
  * on the board.
+ *
+ * Time: exponential
  */
 public class WordBoggle {
     static void boggle(char[][] m, Set<String> d) {
