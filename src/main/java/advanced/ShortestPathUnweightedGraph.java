@@ -1,4 +1,4 @@
-package graph;
+package advanced;
 
 /**
  * Find shortest path in graph from source to destination

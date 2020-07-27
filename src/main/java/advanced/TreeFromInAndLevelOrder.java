@@ -1,5 +1,6 @@
-package trees;
+package advanced;
 
+import trees.TreeHelper;
 import trees.TreeHelper.TreeNode;
 
 /**

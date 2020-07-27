@@ -1,4 +1,4 @@
-package graph;
+package advanced;
 
 import java.util.*;
 

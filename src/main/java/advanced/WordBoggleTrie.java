@@ -1,4 +1,4 @@
-package arrays;
+package advanced;
 
 import strings.Trie;
 import strings.TrieNode;

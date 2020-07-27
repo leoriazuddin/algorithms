@@ -2,10 +2,10 @@ package trees;
 
 public class TreeHelper {
 
-    static class TreeNode {
+    public static class TreeNode {
 
-        TreeNode left;
-        TreeNode right;
+        public TreeNode left;
+        public TreeNode right;
         int value;
 
         public TreeNode(int value) {

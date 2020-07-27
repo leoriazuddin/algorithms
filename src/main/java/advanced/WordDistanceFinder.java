@@ -1,4 +1,4 @@
-package strings;
+package advanced;
 
 /* This class will be given a list of words (such as might be tokenized
  * from a paragraph of text), and will provide a method that takes two

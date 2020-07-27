@@ -1,4 +1,4 @@
-package dp;
+package advanced;
 
 /**
  * Find longest palindromic substring from a given string.
