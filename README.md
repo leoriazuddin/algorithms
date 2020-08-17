@@ -15,6 +15,12 @@ Search in a given string using given Regular Expression.
 
 Skyline
 
+Bellman Ford
+
+Min cost to Connect all cities
+
+Edit distance
+
 Design
 - traffic light system
 - youtube/Netflix system

@@ -6,7 +6,6 @@ import arrays.ArrayHelper;
  * - pick a pivot (last element)
  * - move all small element to left and greater elements to right
  * - do this recursively
- *
  */
 public class QuickSort {
 

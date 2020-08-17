@@ -10,8 +10,7 @@ import java.util.PriorityQueue;
  * approach 3: use quicksort
  */
 public class KthLargest {
-
-
+    
     PriorityQueue<Integer> q;
     int k;
 

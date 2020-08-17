@@ -1,9 +1,7 @@
 package advanced;
 
-/* This class will be given a list of words (such as might be tokenized
- * from a paragraph of text), and will provide a method that takes two
- * words and returns the shortest distance (in words) between those two
- * words in the provided text.
+/* given a list of words (such as might be tokenized from a paragraph of text),
+ * and two words, return the shortest distance (in words) between those two words in the provided text.
  * Example:
  *   WordDistanceFinder finder =
          new WordDistanceFinder(Arrays.asList("the", "quick", "brown", "fox", "quick"));
@@ -39,7 +37,7 @@ public class WordDistanceFinder {
         int wordOneIdx = -1;
         int wordTwoIdx = -1;
 
-        int distance = -1;
+        int distance = Integer.MAX_VALUE;
         for (String word : words) {
             if (word.equals(wordOne)) {
                 wordOneIdx = words.indexOf(word);
@@ -51,9 +49,6 @@ public class WordDistanceFinder {
 
             if (wordOneIdx != -1 || wordTwoIdx != -1) {
                 int newDistance = Math.abs(wordOneIdx - wordTwoIdx);
-                if (distance == -1)
-                    distance = newDistance;
-
                 if (newDistance < distance)
                     distance = newDistance;
             }

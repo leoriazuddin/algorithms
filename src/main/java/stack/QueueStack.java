@@ -13,7 +13,7 @@ import java.util.Stack;
  *  dequeue:
  *      return top of S1
  *
- * Approach 2: keep pushing to s1, and popping from s2. If s2 is empty, move all from s1 to s2. This way we only move on
+ * Approach 2: Always Push to s1, and Pop from s2. If s2 is empty, move all from s1 to s2. This way we only move on
  *  pop when s2 is empty.
  *  enqueue i:
  *      push to S1

@@ -4,7 +4,6 @@ package strings;
  * https://leetcode.com/problems/basic-calculator-ii/description/
  *
  * Build char array
- *
  */
 public class BasicCalculator {
 
