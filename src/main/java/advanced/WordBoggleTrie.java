@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Given dictionary and character matrix, fina all possible words that are in the dictionary
+ * Given dictionary and character matrix, find all possible words that are in the dictionary
  * https://www.geeksforgeeks.org/boggle-set-2-using-trie/
  *
  * Solution: create trie of dictionary and only explore a path of a cell if it is the root in the trie. Collect
@@ -39,9 +39,9 @@ public class WordBoggleTrie {
         Set<String> result = new HashSet<>();
 
         Map<Character, TrieNode> roots = t.getHead().getChildren();
-        for (int i = 0; i < m.length; i++) {
-            for (int j = 0; j < m[0].length; j++) {
-                search(m, rows, cols, roots, i, j, result, "");
+        for (int row = 0; row < m.length; row++) {
+            for (int column = 0; column < m[0].length; column++) {
+                search(m, rows, cols, roots, row, column, result, "");
             }
         }
 

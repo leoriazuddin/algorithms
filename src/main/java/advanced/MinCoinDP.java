@@ -11,25 +11,25 @@ import java.util.Arrays;
  */
 public class MinCoinDP {
 
-    public static int coinChange(int[] inputCoins, int amount) {
-        int[] minCoins = new int[amount + 1];
+    public static int coinChange(int[] coins, int targetAmount) {
+        int[] result = new int[targetAmount + 1];
 
-        Arrays.fill(minCoins, amount + 1); //fill array with some random value greater than target amount
-        minCoins[0] = 0; //fewest # of coins to make 0 cents.
+        Arrays.fill(result, targetAmount + 1); //fill array with some random value greater than target amount
+        result[0] = 0; //fewest # of coins to make 0 cents.
 
         // we are solving subproblems first for say amount 0, 1,.... upto 'amount'.
         // min coins that sum to i, 0 <= i <= amount
-        for(int i = 0; i <= amount; i++) {
+        for(int amount = 0; amount <= targetAmount; amount++) {
             //min coins required to give amount i
-            for(int j = 0; j < inputCoins.length; j++) {
+            for(int coin = 0; coin < coins.length; coin++) {
                 //can only take this coin, if it is <= i
-                if(inputCoins[j] <= i) {
+                if(coins[coin] <= amount) {
                     //minNoOfCoin[i] = min(randomValue, current coin + min coins required for sum (i - coins[j])
-                    minCoins[i] = Math.min(minCoins[i], 1 + minCoins[i - inputCoins[j]]);
+                    result[amount] = Math.min(result[amount], 1 + result[amount - coins[coin]]);
                 }
             }
         }
 
-        return minCoins[amount] > amount ? -1 : minCoins[amount];
+        return result[targetAmount] > targetAmount ? -1 : result[targetAmount];
     }
 }

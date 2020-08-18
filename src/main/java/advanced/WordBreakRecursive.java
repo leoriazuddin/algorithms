@@ -2,6 +2,10 @@ package advanced;
 
 import java.util.Set;
 
+/**
+ * Time complexity is exponential
+ */
+
 public class WordBreakRecursive {
 
     public static void main(String[] args) {

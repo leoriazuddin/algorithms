@@ -13,10 +13,10 @@ import java.util.Set;
  *
  * Done using backtracking and recursion
  */
-public class WordBreakBackTracking01 {
+public class WordBreakBackTracking {
 
     public static void main(String[] args) {
-        WordBreakBackTracking01 m = new WordBreakBackTracking01();
+        WordBreakBackTracking m = new WordBreakBackTracking();
         Set<String> dict = new HashSet<>(Arrays.asList("apple", "i", "is", "java", "what", "am", "ace"));
 
         for (String input : Arrays.asList("whatisjava", "iamace", "wh","ic")) {
