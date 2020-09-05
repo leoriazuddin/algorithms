@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Convert to biggest possible number.
+ */
 public class ConvertNumberToBiggestPossible {
 
   public static void biggest(int num) {
