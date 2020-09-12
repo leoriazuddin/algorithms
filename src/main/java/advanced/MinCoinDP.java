@@ -21,11 +21,12 @@ public class MinCoinDP {
         // min coins that sum to i, 0 <= i <= amount
         for(int amount = 0; amount <= targetAmount; amount++) {
             //min coins required to give amount i
-            for(int coin = 0; coin < coins.length; coin++) {
+            for(int coinIdx = 0; coinIdx < coins.length; coinIdx++) {
+                int coin = coins[coinIdx];
                 //can only take this coin, if it is <= i
-                if(coins[coin] <= amount) {
+                if(coin <= amount) {
                     //minNoOfCoin[i] = min(randomValue, current coin + min coins required for sum (i - coins[j])
-                    result[amount] = Math.min(result[amount], 1 + result[amount - coins[coin]]);
+                    result[amount] = Math.min(result[amount], 1 + result[amount - coin]);
                 }
             }
         }
