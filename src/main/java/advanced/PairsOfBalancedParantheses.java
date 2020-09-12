@@ -9,22 +9,23 @@ public class PairsOfBalancedParantheses {
     print(left * 2, 0, left, right, new char[n * 2]);
   }
 
-  public static void print(int n, int pos, int left, int right, char[] c) {
+  public static void print(int totalChars, int pos, int left, int right, char[] c) {
 
-    if (right == n) {
+    if (right == totalChars) {
       System.out.println(new String(c));
       return;
     }
 
     if (left > right) {
       c[pos] = ')';
-      print(n, pos+1, left, right + 1, c);
+      System.out.println(String.format("Test: %s (l > r, pos: %d, left: %d, right: %d)", new String(c), pos, left, right));
+      print(totalChars, pos+1, left, right + 1, c);
     }
 
-    if (left < n) {
+    if (left < totalChars) {
       c[pos] ='(';
-      print(n, pos+1, left+1, right, c);
+      System.out.println(String.format("Test: %s (l < t, pos: %d, left: %d, right: %d)", new String(c), pos, left, right));
+      print(totalChars, pos+1, left+1, right, c);
     }
-
   }
 }
