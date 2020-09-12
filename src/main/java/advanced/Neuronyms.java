@@ -31,6 +31,5 @@ public class Neuronyms {
         for (String s : al) {
             System.out.println(s);
         }
-
     }
 }
