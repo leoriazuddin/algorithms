@@ -9,21 +9,20 @@ public class GroupNumbers {
 
     void groupNumbers(int[] a) {
 
-        int l = 0, r = a.length - 1;
-        while (l < r) {
-            while (a[l] % 2 == 0 && l < r) {
-                l++;
+        int left = 0, right = a.length - 1;
+        while (left < right) {
+            while (a[left] % 2 == 0 && left < right) {
+                left++;
             }
-            while (a[r] % 2 != 0 && l < r) {
-                r--;
+            while (a[right] % 2 != 0 && left < right) {
+                right--;
             }
-            if (l < r) {
-
-                int temp = a[l];
-                a[l] = a[r];
-                a[r] = temp;
-                l++;
-                r--;
+            if (left < right) {
+                int temp = a[left];
+                a[left] = a[right];
+                a[right] = temp;
+                left++;
+                right--;
             }
         }
 

@@ -17,14 +17,14 @@ public class WordBreakDP {
         System.out.println(wordBreak(input, dp, dict));
     }
 
-    static boolean wordBreak(String word, int[] dp, Set<String> d) {
+    static boolean wordBreak(String word, int[] dp, Set<String> dictionary) {
         if (word.length() == 0) return true;
 
         int len = word.length() - 1;
         if (dp[len] == -1) {
             //mark as visited
             for (int i = 0; i < len; i++) {
-                if (d.contains(word.substring(0, i)) && wordBreak(word.substring(i), dp, d)) {
+                if (dictionary.contains(word.substring(0, i)) && wordBreak(word.substring(i), dp, dictionary)) {
                     dp[len] = 1;
                     return true;
                 }

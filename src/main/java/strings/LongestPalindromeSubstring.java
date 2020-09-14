@@ -2,6 +2,8 @@ package strings;
 
 /**
  * Given a string, find the longest substring which is palindrome.
+ * Solution:
+ * - iterate from start to end, at each iteration check all even and odd length palindromes
  *
  * https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
  *
@@ -16,13 +18,14 @@ public class LongestPalindromeSubstring {
         int len = s.length();
         int maxLength = 1;
         int start = 0;
+
         for(int i = 1; i < len; i++) {
             int low = i-1;
             int high = i;
 
             //check all even length palindromes and track maxLength
-            while(low >=0 && high < len && s.charAt(low) == s.charAt(high)) {
-                if(high -low + 1 > maxLength) {
+            while(low >= 0 && high < len && s.charAt(low) == s.charAt(high)) {
+                if(high - low + 1 > maxLength) {
                     maxLength = high - low + 1;
                     start = low;
                 }

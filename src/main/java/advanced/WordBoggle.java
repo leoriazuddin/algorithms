@@ -31,8 +31,8 @@ public class WordBoggle {
 
   static void boggle(
       char[][] m,
-      Set<String> d,
-      Set<String> words,
+      Set<String> dictionary,
+      Set<String> result,
       boolean[][] visited,
       int i,
       int j,
@@ -43,14 +43,14 @@ public class WordBoggle {
     path += m[i][j];
 
     //        System.out.println(path);
-    if (d.contains(path)) words.add(path);
+    if (dictionary.contains(path)) result.add(path);
 
     for (int k = 0; k < 4; k++) {
       int row = i + rows[k];
       int col = j + cols[k];
 
       if (row >= 0 && row < m.length && col >= 0 && col < m[0].length && !visited[row][col]) {
-        boggle(m, d, words, visited, row, col, rows, cols, path);
+        boggle(m, dictionary, result, visited, row, col, rows, cols, path);
       }
     }
 

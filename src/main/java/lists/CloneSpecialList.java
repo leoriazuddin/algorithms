@@ -16,19 +16,9 @@ public class CloneSpecialList {
     SpecialNode clone(SpecialNode head){
 
         Map<SpecialNode, SpecialNode> map = new HashMap<>();
-        SpecialNode n = head;
-
-        SpecialNode cloneHead = null, clone = null;
+        SpecialNode n = head, clone = null;
         while(n != null) {
-            if (!map.containsKey(n)) {
-                map.put(n, new SpecialNode(n.value));
-            }
-
-            if(cloneHead == null){
-                cloneHead = map.get(head);
-                clone = cloneHead;
-            }
-
+            map.computeIfAbsent(n, k -> new SpecialNode(k.value));
             n = n.next;
         }
 
@@ -41,7 +31,7 @@ public class CloneSpecialList {
             n = n.next;
         }
 
-        return cloneHead;
+        return map.get(head);
     }
 
     private static class SpecialNode {

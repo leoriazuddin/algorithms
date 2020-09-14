@@ -10,7 +10,6 @@ import java.util.*;
  *  Track shortestPath to all vertices in dist, track visited in visited.
  *  initialize dist to infinity, and keep updating with min distance as follows.
  *  if current node is not visited and if d(current node to its neighbor) < dist[neighbor], then dist[neighbor] = new distance
- *
  */
 public class ShortestPathDijkstra {
     static class Edge {
@@ -35,7 +34,7 @@ public class ShortestPathDijkstra {
     static class Graph {
         Map<Integer, List<Edge>> adjList = null;
 
-        Graph(List<Edge> edges, int n) {
+        Graph(List<Edge> edges) {
             adjList = new HashMap<>();
 
             for (Edge edge : edges) {
@@ -56,7 +55,7 @@ public class ShortestPathDijkstra {
                 new Edge(4, 3, 2));
 
         int n = 5;
-        Graph g = new Graph(edges, n);
+        Graph g = new Graph(edges);
         int source = 0;
         shortestPath(g, source, n);
     }

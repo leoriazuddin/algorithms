@@ -3,8 +3,8 @@ package arrays;
 import java.util.Stack;
 
 /**
- * given and array,
- *  print all indexes of elements which have all elements on right less than it.
+ * given an array,
+ *  print indexes of elements which have all elements on right less than it.
  */
 public class AllMininimumOnRight {
 

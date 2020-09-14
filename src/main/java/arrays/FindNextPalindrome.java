@@ -57,7 +57,7 @@ public class FindNextPalindrome {
   }
 
   public static void main(String[] args) {
-    System.out.println(nextPalindrome(379));
+    System.out.println(nextPalindrome(9));
   }
 
   public static String copyEvenLtoR(String s) {

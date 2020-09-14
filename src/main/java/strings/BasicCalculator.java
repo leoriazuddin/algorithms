@@ -11,8 +11,7 @@ public class BasicCalculator {
 
         int mul_div = -1; // * = 0, / = 1
         int sign = 1; // 1 is +, -1 is -
-        int prev = 0;
-        int result = 0;
+        int prev = 0, result = 0;
 
         char[] chars = in.toCharArray();
 

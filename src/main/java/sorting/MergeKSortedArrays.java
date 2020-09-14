@@ -2,6 +2,11 @@ package sorting;
 
 import arrays.ArrayHelper;
 
+/**
+ * Solution: Create new array with size = sum(all array sizes).
+ * copy elements from all arrays to this new array.
+ * sort the array.
+ */
 public class MergeKSortedArrays {
 
     void merge(int[][] arrays) {

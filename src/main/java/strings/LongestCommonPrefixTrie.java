@@ -8,9 +8,13 @@ import java.util.Map;
 public class LongestCommonPrefixTrie {
 
     /**
-     * Algorithm: - Corner cases - array is empty - a string in array is empty
+     * Algorithm:
+     * - Corner cases
+     * - array is empty
+     * - a string in array is empty
      *
-     * - Build a trie and add all strings to it. - Iterate through Trie until a node is found with more than once child.
+     * - Build a trie and add all strings to it.
+     * - Iterate through Trie until a node is found with more than once child.
      * This is the prefix.
      */
 
