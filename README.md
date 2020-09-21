@@ -11,8 +11,6 @@ KMP algorithm
 
 [Partition Labels] (https://www.youtube.com/watch?v=ED4ateJu86I)
 
-Search in a given string using given Regular Expression.
-
 Skyline
 
 Bellman Ford
