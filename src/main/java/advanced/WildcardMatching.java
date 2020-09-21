@@ -2,11 +2,11 @@ package advanced;
 
 /**
  * https://www.geeksforgeeks.org/wildcard-pattern-matching/
- * https://leetcode.com/problems/regular-expression-matching/
+ * https://leetcode.com/problems/wildcard-matching/
  * https://www.youtube.com/watch?v=3ZDZ-N0EPV0
  *
  */
-public class RegularExpressionMatch {
+public class WildcardMatching {
 
     public static boolean isMatch(String s, String p) {
 
