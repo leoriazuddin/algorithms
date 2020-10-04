@@ -9,7 +9,7 @@ import java.util.*;
  * Given list of words from alien dictionary where words are sorted lexicographically by rules of that language.
  * Derive order of letters in this language.
  *
- * Solution: Create a graph g, array to track incoming edges of each alphabet and print the nodes.
+ * Solution: Create a graph g, and array to track incoming edges of each alphabet and print the nodes.
  *  Begin by printing from the root in BFS.
  *
  * Graph creation:
@@ -54,6 +54,8 @@ public class AlienLanguage {
             }
         }
 
+        //build order between alphabets, and indegree counts for each alphabet.
+        //since words are sorted, char from s1 will come before char from s2
         for(int i = 1; i < words.length; i++) {
             String first = words[i - 1], second = words[i];
             int len = Math.min(first.length(), second.length());
@@ -68,15 +70,17 @@ public class AlienLanguage {
                         indegree[in - 'a']++;
                     }
 
-//                    break;
+                    break;
                 }
             }
         }
     }
 
+    //find root, i.e., incoming edges == 0, and add to output
+    //next go to its connections, decrement their incoming edge by 1, add to output, keep doing this until all
+    //nodes are covered.
     private String bfs(Map<Character, Set<Character>> g, int[] indegree) {
         StringBuilder sb = new StringBuilder();
-        int totalChars = g.size();
         Queue<Character> q = new LinkedList<>();
         for(char c : g.keySet()) {
             if (indegree[c - 'a'] == 0) {
