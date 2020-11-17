@@ -24,3 +24,4 @@ Shortest path unweighted graph
 Design
 - traffic light system
 - youtube/Netflix system
+- distributed log collection system
