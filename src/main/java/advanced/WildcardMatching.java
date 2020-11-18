@@ -39,6 +39,6 @@ public class WildcardMatching {
             }
         }
 
-        return dp[n][m];
+        return dp[m][n];
     }
 }
