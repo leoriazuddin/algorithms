@@ -2,7 +2,11 @@ package advanced;
 
 /**
  * https://leetcode.com/problems/regular-expression-matching/submissions/
+ * 
+ * https://redquark.org/leetcode/0010-regular-expression-matching/
  *
+ * Time: O(m × n) where m and n are the lengths of s and p respectively.
+ * Space: O(m × n)
  */
 public class RegularExpressionMatch {
     public static boolean isMatch(String s, String p) {
